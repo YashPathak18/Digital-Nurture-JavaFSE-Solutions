@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Events</title>
+</head>
+
+<body>
+
+    <input type="text"
+           onblur="alert('Phone validated')"
+           placeholder="Phone Number">
+
+    <br><br>
+
+    <select onchange="alert('Event fee displayed')">
+        <option>100</option>
+        <option>200</option>
+    </select>
+
+    <br><br>
+
+    <textarea onkeydown="console.log('Typing')"></textarea>
+
+    <br><br>
+
+    <button onclick="alert('Feedback Submitted')">
+        Submit
+    </button>
+
+</body>
+
+</html>
